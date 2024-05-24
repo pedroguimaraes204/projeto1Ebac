@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h1 a{
+    font-family: "open sans", sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    padding: 16px 0 ;
+    background-color: rgb(156, 3, 3);
+    color: white;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: white;
+    font-family: "open sans", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container h1{
+    padding-left: 30px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulosite h1 {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(156, 3, 3);
+    font-size: 40px;
+    display: inline-block;
+    padding: 50px 50px 0px 50px;
+    border-bottom: 3px solid rgb(156, 3, 3);
+}
+
+.text-image img {
+    width: 600px;
+    padding: 50px;
+    border-radius: 20%;
+    border-top-right-radius: 0 ;
+    border-bottom-right-radius: 0;
+    display: flex;
+    align-items: center;
+}
+
+.noticia  h2 {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    color: rgb(156, 3, 3);
+}
+
+.noticia p{
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    padding-right: 50px;
+}
+
+.noticia {
+    padding-bottom: 80px;
+}
+
+.ultimanoticia h2{
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    color: rgb(156, 3, 3);
+}
+
+
+.ultimanoticia p{
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    padding-right: 50px;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 3px solid rgb(156, 3, 3) ;
+}
+
+.container3{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+footer{
+    background-color: rgb(142, 4, 4);
+    border-top: 3px solid rgb(129, 22, 22);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+footer p{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    padding: 20px 20px 20px 20px;
+}
+
+footer a{
+    font-family: "Open Sans", sans-serif;
+    color: gray;
+    padding-right: 40px;
+}
+
+form input, form textarea, form button {
+    font-family: "Open Sans", sans-serif;
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h2 {
+    font-family: "Open Sans", sans-serif;
+    color: #860202;
+    margin-bottom: 5px;
+}
+
+section h3{
+    font-family: "Open Sans", sans-serif;
+    color: #860202;
+    margin-bottom: 5px;
+}
+
+form button {
+    background-color: rgb(156, 3, 3);
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #860202;
+}
+
+input:focus, textarea:focus {
+    outline-color: #860202;
+}
+
+.adress p {
+    font-family: "Open Sans", sans-serif;
+}
+
+.social-links img {
+    height: 50px;
+    padding-top: 15px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+
